@@ -12,8 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sub"
-        tools:targetApi="31"
-        android:name=".LoginApplication">
+        tools:targetApi="31">
         <activity
             android:name=".MysubActivity"
             android:exported="false" />
@@ -21,7 +20,7 @@
             android:name=".BoardActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginApplication"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -33,5 +32,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
